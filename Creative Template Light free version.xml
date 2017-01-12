@@ -234,23 +234,6 @@ user is not using shrink to fit then we expand the header.
       </div>
 
       </div>
-<b:if cond='data:blog.pageType == &quot;index&quot;'>
-<div class='container page-head'>
-                            <h1>
-                                Hello. I&#39;m a grid based layout <span>focused on your Content.</span>                            <small>Greet your visitors &amp; Showcase your work with style.</small>
-                            </h1>
-
-   <div id='search'>
-        <form action='/search' method='get' role='search'>
-          <input class='s-input' name='q' placeholder='Enter Your Keyword' type='text' value=''/>
-          <button class='s-submit' type='submit'>
-            <i class='fa fa-search'/>
-          </button>
-        </form>
-      </div>
-                        </div>
-
-      </b:if>
     </header>
     <!-- HEADER ENDS! -->
     <!-- MAIN CONTENT -->
@@ -370,7 +353,7 @@ user is not using shrink to fit then we expand the header.
             <b:includable id='backlinkDeleteIcon' var='backlink'>
               <span expr:class='&quot;item-control &quot; + data:backlink.adminClass'>
                 <a expr:href='data:backlink.deleteUrl' expr:title='data:top.deleteBacklinkMsg'>
-                  <img src='//www.blogger.com/img/icon_delete13.gif'/>
+                  <img src='//ojo6o68m0.bkt.clouddn.com/icon_delete.gif'/>
                 </a>
               </span>
             </b:includable>
@@ -432,7 +415,7 @@ user is not using shrink to fit then we expand the header.
                   </div>
                   <b:else/>
                   <a class='comment-delete' expr:href='data:comment.deleteUrl' expr:title='data:top.deleteCommentMsg'>
-                    <img src='//www.blogger.com/img/icon_delete13.gif'/>
+                    <img src='ojo6o68m0.bkt.clouddn.com/icon_delete.gif'/>
                   </a>
                 </b:if>
               </span>

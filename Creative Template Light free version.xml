@@ -122,7 +122,6 @@ var iwh = 270
 </head>
 
 <body>
-
   <b:if cond='data:blog.pageType == &quot;index&quot;'>
     <div itemscope='itemscope' itemtype='http://schema.org/Blog' style='display: none;'>
       <meta expr:content='data:blog.title' itemprop='name'/>
@@ -131,14 +130,9 @@ var iwh = 270
       </b:if>
     </div>
   </b:if>
-
   <!-- TEMPLATE CONTAINER -->
-
 <div class='outerwapper'>
- 
-
-    <!-- HEADER -->
-
+     <!-- HEADER -->
     <header class='clearfix'>
 <div class='head-area'>
       <div id='logo'>
@@ -215,16 +209,18 @@ user is not using shrink to fit then we expand the header.
       </div>
       <nav id='navigation'>
         <ul>
-          <li class='active'><a href='/'>Home</a></li>
-          <li><a href='#'>Labels</a></li>
-          <li><a href='#'>Drop down</a>
+          <li class='active'><a href='/'>主页</a></li>
+
+          <li><a href='#'>特点</a>
             <ul>
-              <li><a href='#'>Grid style</a></li>
-              <li><a href='#'>Free logo&#39;s</a></li>
-              <li><a href='#'>Bages style</a></li>
+              <li><a href='http://www.mmgong.com/search/label/%E7%BE%8E%E8%85%BF'>美腿</a></li>
+              <li><a href='http://www.mmgong.com/search/label/%E7%BE%8E%E8%85%BF'>丝袜</a></li>
+              <li><a href='http://www.mmgong.com/search/label/%E8%87%AA%E6%8B%8D'>自拍</a></li>
+              <li><a href='http://www.mmgong.com/search/label/%E5%81%B7%E6%8B%8D'>偷拍</a></li>
             </ul>
           </li>
-          <li><a href='#'>Sample</a></li>
+          <li><a href='http://www.mmgong.com/blog-page_5.html'>声明</a></li>
+          <li><a href='http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=0Li-p6OzuZC2v6i9sbm8-rO-vQ' target="_blank">联系我</a></li>
           <li><a href='/404'>Error 404</a></li>
           <li><a href='#'>Page</a></li>
         </ul>
@@ -234,6 +230,23 @@ user is not using shrink to fit then we expand the header.
       </div>
 
       </div>
+<b:if cond='data:blog.pageType == &quot;index&quot;'>
+<div class='container page-head'>
+                            <h1>
+                                Hello. I&#39;m a grid based layout <span>focused on your Content.</span>                            <small>Greet your visitors &amp; Showcase your work with style.</small>
+                            </h1>
+
+   <div id='search'>
+        <form action='/search' method='get' role='search'>
+          <input class='s-input' name='q' placeholder='Enter Your Keyword' type='text' value=''/>
+          <button class='s-submit' type='submit'>
+            <i class='fa fa-search'/>
+          </button>
+        </form>
+      </div>
+                        </div>
+
+      </b:if>
     </header>
     <!-- HEADER ENDS! -->
     <!-- MAIN CONTENT -->
@@ -415,7 +428,7 @@ user is not using shrink to fit then we expand the header.
                   </div>
                   <b:else/>
                   <a class='comment-delete' expr:href='data:comment.deleteUrl' expr:title='data:top.deleteCommentMsg'>
-                    <img src='ojo6o68m0.bkt.clouddn.com/icon_delete.gif'/>
+                    <img src='//ojo6o68m0.bkt.clouddn.com/icon_delete.gif'/>
                   </a>
                 </b:if>
               </span>
@@ -1458,7 +1471,7 @@ for good G+/FB snippeting. -->
 
 					<div class='avatar'>
 
-                      <img alt='author' src='http://1.bp.blogspot.com/-9j9G0YaSVSE/VKuVnExw4AI/AAAAAAAADZo/XRKHYRjF7VQ/s1600/user-avatar-pic.jpg'/>
+                      <img alt='author' src='http://ojo6o68m0.bkt.clouddn.com/mmgong_logo.png'/>
 
 					</div>
 
@@ -1468,13 +1481,13 @@ for good G+/FB snippeting. -->
 
 					<div class='name'>
 
-						 Jake Simms 
+						 声明 
 
 					</div>
 
 					<div class='summary'>
 
-						Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt utlaoreet dolore.
+						所有图片均来自互联网公开发表资源，如果有异议可以不同我
 
 					</div>
 
